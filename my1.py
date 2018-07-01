@@ -104,4 +104,3 @@ while len(otrjd1.b) > 0 and len(otrjd2.b) > 0:
 print(len(otrjd1.b))
 
 print(len(otrjd2.b))
-1
