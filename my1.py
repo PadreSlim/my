@@ -125,7 +125,7 @@ while len(otrjd1.b) > 0 and len(otrjd2.b) > 0:
             ochered = 1
 
 
-
+1
 
 
 
