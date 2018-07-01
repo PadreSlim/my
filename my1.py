@@ -2,12 +2,7 @@
 
 """
 
-
-
 import random
-
-
-
 
 
 class Voiny:
@@ -18,17 +13,11 @@ class Voiny:
 
         self.udar = udar
 
-
-
-
-
 class Chislin:
 
     def __init__(self):
 
         self.b = []
-
-
 
     def postroenie(self, count):
 
@@ -37,8 +26,6 @@ class Chislin:
             voin = Voiny(100, 25)
 
             self.b.append(voin)
-
-
 
     """Достается воин из массива"""
 
@@ -50,21 +37,14 @@ class Chislin:
 
     """Удаляется каждый мертвый воин из массива"""
 
-
-
     def deleteVoin(self, voin):
 
         self.b.remove(voin)
 
 
-
-
-
 otrjd1 = Chislin()
 
 otrjd1.postroenie(12)
-
-
 
 otrjd2 = Chislin()
 
@@ -77,9 +57,7 @@ voin1 = None
 voin2 = None
 
 
-
 while len(otrjd1.b) > 0 and len(otrjd2.b) > 0:
-
 
 
     if voin1 == None:
@@ -87,11 +65,9 @@ while len(otrjd1.b) > 0 and len(otrjd2.b) > 0:
         voin1 = otrjd1.get_next()
 
 
-
     if voin2 == None:
 
         voin2 = otrjd2.get_next()
-
 
 
     ochered = random.randint(1, 2)
@@ -125,10 +101,7 @@ while len(otrjd1.b) > 0 and len(otrjd2.b) > 0:
             ochered = 1
 
 
-
-
-
-
 print(len(otrjd1.b))
 
 print(len(otrjd2.b))
+1
